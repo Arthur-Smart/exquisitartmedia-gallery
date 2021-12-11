@@ -1,0 +1,135 @@
+.settingsPage {
+  overflow-x: hidden;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.settingsLeft {
+  flex: 8;
+  padding: 15px 10px;
+}
+
+.policy {
+  flex: 2;
+  display: flex;
+  font-family: var(--family2);
+  line-height: 25px;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px 10px;
+  color: var(--main);
+  background-color: rgb(247, 247, 247);
+}
+
+.policy h4 {
+  font-family: var(--family2);
+  color: var(--main);
+  text-align: center !important;
+}
+
+.verify {
+  display: flex;
+  align-items: center;
+}
+
+.deleteAccount {
+  padding: 10px 15px;
+  width: 50%;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: var(--main);
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+  background-color: rgb(241, 201, 194);
+}
+
+.settingsLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsLeft h4 {
+  font-family: var(--family2);
+  font-weight: 600;
+  color: var(--main);
+  font-size: 22px;
+}
+
+.profileSettings {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.ppImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.profileSettings h6 {
+  margin-left: 4px;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--main);
+  cursor: pointer;
+}
+
+.profileSettings h6:hover {
+  background-color: rgb(122, 122, 122);
+}
+
+.updateForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputSettings {
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid var(--main);
+}
+
+.inputSettings:focus {
+  outline: none;
+}
+
+.settingPageBtn {
+  margin-top: 10px;
+  padding: 15px 0;
+  outline: none;
+  color: #fff;
+  border: none;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+.label {
+  font-family: var(--family2);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--main);
+}
+
+@media screen and (max-width: 830px) {
+  .settingsPage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .settingsLeft h4 {
+    text-align: center;
+  }
+}

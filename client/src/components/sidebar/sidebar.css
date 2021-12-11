@@ -1,0 +1,97 @@
+.sidebar {
+  padding: 10px 15px;
+  flex: 2;
+  background-color: rgb(247, 247, 247);
+}
+
+.sidebar span {
+  color: var(--primary);
+  font-weight: 700;
+  font-family: var(--family1);
+  font-style: italic;
+}
+
+.sidebar h4 {
+  font-family: var(--family2);
+  color: var(--main);
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid var(--main);
+  padding-bottom: 5px;
+}
+
+.socialMedia {
+  border-bottom: 1px solid var(--main);
+}
+
+.media {
+  margin-top: -7px;
+  display: flex;
+  font-size: 18px;
+  color: var(--main);
+  align-items: center;
+}
+
+.media p {
+  margin-left: 5px;
+}
+
+.mylinks {
+  padding-top: 5px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mylinks .fab {
+  margin-left: 10px;
+  color: var(--main);
+  cursor: pointer;
+}
+
+.mylinks .fas {
+  margin-left: 10px;
+  color: var(--main);
+  cursor: pointer;
+}
+
+.mylinks .fab:hover,
+.mylinks .fas:hover {
+  color: var(--primary);
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment h5 {
+  text-align: center;
+  font-family: var(--family2);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--main);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup input {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid var(--main);
+  outline: none;
+}
+
+.commentBtn {
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: var(--primary);
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}

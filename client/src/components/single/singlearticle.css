@@ -1,0 +1,15 @@
+.singleArticle {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.single {
+  flex: 8;
+}
+
+@media screen and (max-width: 495px) {
+  .singleArticle {
+    flex-direction: column-reverse;
+  }
+}

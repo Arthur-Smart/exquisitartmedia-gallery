@@ -1,0 +1,16 @@
+.articles {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-gap: 15px;
+  flex: 8;
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 1115px) {
+}
+
+@media screen and (max-width: 766px) {
+}

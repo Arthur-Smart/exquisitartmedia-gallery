@@ -1,0 +1,94 @@
+.article {
+  flex: 8;
+}
+
+.articleWrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.articleImg {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.articleHeading {
+  font-family: var(--family2);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--main);
+}
+.articleHeadingInput {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--main);
+  text-align: center;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.articleSpans {
+  display: flex;
+  flex-direction: column;
+  color: var(--main);
+  font-family: var(--family2);
+}
+
+.articleWritter b {
+  color: var(--primary);
+}
+
+.articleDesc {
+  font-family: var(--family2);
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--main);
+}
+
+.articleDescInput {
+  width: 100%;
+  font-family: var(--family2);
+  font-weight: normal;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: var(--main);
+}
+
+.articleDesc:first-letter {
+  font-size: 34px;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.edits .far {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.edits .far:first-child {
+  color: teal;
+}
+
+.edits .far:last-child {
+  margin-left: 10px;
+  color: tomato;
+}
+
+.updateBtn {
+  bottom: none;
+  margin-left: 7px;
+  background-color: var(--primary);
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

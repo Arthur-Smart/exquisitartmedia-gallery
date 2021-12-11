@@ -1,0 +1,104 @@
+.create {
+  overflow-x: hidden;
+  width: 100%;
+  margin-top: 60px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.createArticle {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.addPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.addPhoto p {
+  margin-left: 5px;
+  font-family: var(--family2);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main);
+}
+
+.createImg {
+  width: 80%;
+  height: 40vh;
+  object-fit: cover;
+  margin: 15px 0;
+  border-radius: 7px;
+}
+
+.createFormGroup {
+  width: 100%;
+}
+
+.createIcon {
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+.createFormGroup input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-family: var(--familiy2);
+  color: var(--main);
+  font-size: 17px;
+}
+
+.createFormGroup input:focus {
+  outline: none;
+}
+
+.createTextarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.createTextarea textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 90%;
+  height: 35vh;
+  max-height: 35vh;
+  min-height: 30vh;
+  font-family: var(--familiy2);
+  color: var(--main);
+  font-size: 17px;
+  border: 1px solid var(--main);
+  border-radius: 4px;
+}
+
+.createTextarea textarea:focus {
+  outline: none;
+}
+
+.createBtn {
+  align-self: end;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: teal;
+  color: #fff;
+  font-family: var(--family2);
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+}
